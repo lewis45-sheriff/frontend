@@ -1,0 +1,65 @@
+/* Container for the homepage */
+.homepage-container {
+    padding: 20px;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Welcome message styling */
+.welcome-message {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Profile container */
+.profile-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Profile title */
+.profile-title {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Profile items styling */
+.profile-item {
+    font-size: 1.2rem;
+    color: #495057;
+    margin-bottom: 10px;
+}
+
+.profile-item strong {
+    color: #343a40;
+}
+
+/* Adding responsive design */
+@media (max-width: 768px) {
+    .homepage-container {
+        padding: 10px;
+    }
+
+    .welcome-message {
+        font-size: 2rem;
+    }
+
+    .profile-container {
+        width: 100%;
+    }
+}

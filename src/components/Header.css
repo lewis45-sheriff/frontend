@@ -1,0 +1,64 @@
+/* General header styling */
+.header-container {
+    background-color: #f8f9fa;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ddd;
+}
+
+/* Navigation link styling */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Logout button styling */
+.logout-btn {
+    cursor: pointer;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    color: #c82333;
+}
+
+/* Welcome message styling */
+.welcome-message {
+    font-size: 1.1em;
+    color: #343a40;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+/* Add responsive behavior */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .welcome-message {
+        margin-top: 10px;
+    }
+}

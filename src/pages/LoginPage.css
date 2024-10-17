@@ -1,0 +1,46 @@
+/* LoginPage.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.login-form {
+    background-color: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 300px; /* Fixed width */
+}
+
+.login-form h2 {
+    margin-bottom: 20px; /* Spacing below the header */
+    text-align: center; /* Center the header text */
+    color: #333; /* Darker text color */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%; /* Full width of the form */
+    padding: 10px; /* Spacing inside inputs */
+    margin-bottom: 15px; /* Spacing between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.login-form input[type="submit"] {
+    width: 100%; /* Full width of the submit button */
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font for button */
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
